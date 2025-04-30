@@ -1,0 +1,24 @@
+title: Manuel Garcia Prieto
+is-pinned-card: true 
+tags: advisor, centrist
+card-image: img/portraits/BreitscheidRudolf.jpg
+new-page: true
+view-if: breitscheid_advisor = 1
+
+= Manuel Garcia Prieto
+
+Manuel Garcia Prieto is a liberal jurist from Astorga, leader of the Liberal-Democrat faction and current leader of the Party.
+
+- @breitscheid_international
+- @breitscheid_foreign
+- @party_discipline
+- @snap_election
+- @root: Return to main
+
+@breitscheid_international
+title: International Party Relations
+subtitle: Breitscheid is one of our contacts with international socialist parties.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer == 0
+on-arrival: advisor_action_timer = 6; international_relations_timer -= 12; last_advisor_action = 1
+go-to: international_relations
