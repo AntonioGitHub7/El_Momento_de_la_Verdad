@@ -39,7 +39,7 @@ Relationship with the King: [+ king_relation : relationships +]
 
 President of the Council of Ministers: [+ president_council_minister +] ([+ president_council_minister_party +])
 
-Senate: [? if senate_democratised == 0: Not democratized ?][? if senate_democratised == 1: Hal democratized, half corporations and unions  ?] [? if senate_democratised == 2: Democratized ?]
+Senate: [? if senate_democratised == 0: Not democratized ?][? if senate_democratised == 1: Half democratized, half corporations and unions  ?] [? if senate_democratised == 2: Democratized ?]
 
 Composition of the Congress of Deputies:
 
