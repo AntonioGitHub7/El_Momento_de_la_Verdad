@@ -332,8 +332,7 @@ Q.economic_records = [];
 
 // State of the government
 Q.king = "Alfonso XIII";
-// starting chancellor: Wilhelm Marx
-Q.president_council_minister = "Prieto";
+Q.president_council_minister = "Garcia Prieto";
 Q.president_council_minister_party = '<span style="color: #D5D81E;">**PL**</span>';
 Q.pl_in_government = 1;
 Q.in_liberal_conjunction = 1;
