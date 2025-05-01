@@ -21,7 +21,7 @@ on-arrival: {!
 Q.started = 1;
 // time elapsed (in months)
 Q.time = 1;
-Q.year = 1928;
+Q.year = 1923;
 Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
@@ -182,6 +182,8 @@ Q.constructive_vonc = 0;
 Q.presidential_powers = 0;
 // allows banning of non-constitutional parties
 Q.constitutional_protection = 0;
+// Reforma senado
+Q.senate_democratised = 0;
 Q.kpd_banned = 0;
 Q.nsdap_banned = 0;
 
@@ -329,15 +331,16 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.king = "Alfonso XIII";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
-Q.chancellor_party = 'Z';
-Q.spd_in_government = 0;
-Q.z_in_government = 1;
+Q.chancellor = "Prieto";
+Q.chancellor_party = '<span style="color: #D5D81E;">**PL**</span>';
+Q.pl_in_government = 1;
+Q.in_liberal_conjunction = 1;
+Q.z_in_government = 0;
 Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
+Q.dvp_in_government = 0;
+Q.dnvp_in_government = 0;
 Q.kpd_in_government = 0;
 Q.nsdap_in_government = 0;
 
