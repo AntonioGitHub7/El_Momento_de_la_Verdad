@@ -96,7 +96,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 = Internal Factions of the <span style="color: #D5D81E;">**PL**</span>
 
-{!<span class="tooltip-text" title="The left is interested in reforming the Restoration political system, ending the encasquillado and the caciquismo; and integrating moderate republicans and moderate socialists into the political system. They are made up of the Albistas (followers of Santiago Alba) and the Gassetistas (followers of Rafael Gasset Chinchilla). ">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +], leader: [+ left_leader +]
+{!<span class="tooltip-text" title="The left is interested in reforming the Restoration political system, ending the encasquillado and the caciquismo; and integrating moderate republicans and moderate socialists into the political system.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +], leader: [+ left_leader +]
 
 {!<span class="tooltip-text" title="The Democrats seek to reform the political system in a more moderate way than the left. They advocate greater democratization by limiting caciquismo rather than destroying it, and they advocate more reforms than Romanones.">Democrats</span>!} strength: [+ democrat_strength : strength +], dissent: [+ democrat_dissent : dissent +], leader: [+ democrat_leader +]
 
@@ -104,7 +104,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="The Romanonists seek to maintain the status quo in the political system and support mild non-political reforms.">Romanonists</span>!} strength: [+ romanonist_strength : strength +], dissent: [+ romanonist_dissent : dissent +], leader: [+ romanonist_leader +]
 
-{!<span class="tooltip-text" title="The objective of the Agrarianists is to avoid the redistribution of land, opposing extensive agrarian reforms. Politically, they follow a continuity line, similar to the Romanonists.">Agrarianists</span>!} strength: [+ agrarianist_strength : strength +], dissent: [+ agrarianist_dissent : dissent +], leader: [+ agrarianist_leader +]
+{!<span class="tooltip-text" title="The agrarianists aim to modernize the countryside through the development of rural public works, the fight against agrarian depopulation, the improvement of rural schools, administrative decentralization, and the fight against territorial imbalance. Politically, they advocate political reform without breaking with the monarchy.">Agrarianists</span>!} strength: [+ agrarianist_strength : strength +], dissent: [+ agrarianist_dissent : dissent +], leader: [+ agrarianist_leader +]
 
 @paramilitaries
 on-arrival: {!
