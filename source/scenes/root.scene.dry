@@ -50,14 +50,19 @@ Q.factions = ['left', 'romanonist', 'agrarianist', 'democrat', 'zamorist'];
 // should this be normalized to 100%?
 Q.left_strength = 15;
 Q.left_dissent = 15;
+Q.left_leader = Santiago Alba;
 Q.romanonist_strength = 25;
 Q.romanonist_dissent = 25;
-Q.agrarian_strength = 10;
-Q.agrarian_dissent = 10;
+Q.romanonist_leader = Álvaro de Figueroa y Torres;
+Q.agrarianist_strength = 10;
+Q.agrarianist_dissent = 10;
+Q.agrarianist_leader = Rafael Gasset Chinchilla;
 Q.democrat_strength = 35;
 Q.democrat_dissent = 5;
+Q.democrat_leader = Manuel García Prieto;
 Q.zamorist_strength = 15;
 Q.zamorist_dissent = 10;
+Q.zamorist_leader = Niceto Alcalá Zamora;
 
 // secret events...
 Q.unions_independent = 0;
