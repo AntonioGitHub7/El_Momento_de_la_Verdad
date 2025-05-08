@@ -100,7 +100,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 {!<span class="tooltip-text" title="The Democrats seek to reform the political system in a more moderate way than the left. They advocate greater democratization by limiting caciquismo rather than destroying it, and they advocate more reforms than Romanones.">Democrats</span>!} strength: [+ democrat_strength : strength +], dissent: [+ democrat_dissent : dissent +], leader: [+ democrat_leader +]
 
-{!<span class="tooltip-text" title="The Zamoristas defend social order, seeking peace among social and political groups, combating the corruption of electoral rotation, and modifying the electoral system seeking greater representation and transparency.">Zamorists</span>!} strength: [+ democrat_strength : strength +], dissent: [+ democrat_dissent : dissent +], leader: [+ democrat_leader +]
+{!<span class="tooltip-text" title="The Zamoristas defend social order, seeking peace among social and political groups, combating the corruption of electoral rotation, and modifying the electoral system seeking greater representation and transparency.">Zamorists</span>!} strength: [+ democrat_strength : strength +], dissent: [+ democrat_dissent : dissent +], leader: [+ zamorist_leader +]
 
 {!<span class="tooltip-text" title="The Romanonists seek to maintain the status quo in the political system and support mild non-political reforms.">Romanonists</span>!} strength: [+ romanonist_strength : strength +], dissent: [+ romanonist_dissent : dissent +], leader: [+ romanonist_leader +]
 
