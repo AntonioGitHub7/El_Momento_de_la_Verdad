@@ -37,7 +37,7 @@ Relationship with the King: [+ king_relation : relationships +]
 
 //President: [+ president +]
 
-President of the Council of Ministers: [? if  president_council_minister_party == "PL": <span style="color: #D5D81E;">[+ president_council_minister +]</span> ( <span style="color: #D5D81E;">**PL**</span>) ?][? if  president_council_minister_party == "PC": <span style="color: #2760E3;">[+ president_council_minister +]</span> ( <span style="color: #2760E3;">**PC**</span>) ?]
+President of the Council of Ministers: [? if  president_council_minister_party == "PL": <span style="color: #D5D81E;">[+ president_council_minister +]</span> (<span style="color: #D5D81E;">**PL**</span>) ?][? if  president_council_minister_party == "PC": <span style="color: #2760E3;">[+ president_council_minister +]</span> (<span style="color: #2760E3;">**PC**</span>) ?]
 
 Senate: [? if senate_democratised == 0: Not democratized ?][? if senate_democratised == 1: Half democratized, half corporations and trade unions  ?] [? if senate_democratised == 2: Democratized ?]
 
