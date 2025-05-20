@@ -1,0 +1,26 @@
+title: Change of Government
+subtitle: We had offended to [+ king +]
+tags: event
+view-if: year = 1928 and month = 2
+priority: 2
+max-visits: 1
+new-page: true
+
+= The king dimises our government!
+
+We had ofended to the king, and he has disolved our government, this is a major setback to the reformist chause. 
+
+- @Negociate: Nominate Romanones our Leader
+- @Accept: Accept and work to restore the king's confidance on the opposition
+
+@Accept
+on-arrival: president_council_minister_party = "PC"; president_council_minister = "Sánchez Guerra"; pl_in_government = 0
+subtitle: There's nothing we can do
+
+We will come back
+
+@Negociate
+on-arrival: president_council_minister = "Romanones"
+subtitle: There's nothing we can do
+
+The king accepts this change, but is a setback on reforms, Romanones is very conservative.
