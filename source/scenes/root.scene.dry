@@ -29,7 +29,6 @@ Tu juegas en Español
 
 
 @start_menu_2
-new-page: true
 
 - @start: Start game
 - @election_simulation: Election simulation
