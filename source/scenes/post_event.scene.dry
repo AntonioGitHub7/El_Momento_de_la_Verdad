@@ -16,6 +16,7 @@ Q.pro_republic = Math.round(Q.pro_republic);
 Q.nationalism = Math.round(Q.nationalism);
 Q.socialism = Math.round(Q.socialism);
 
+// Language
 if (Q.language_play = 0) {
     Q.language_play = 0
 }
@@ -24,6 +25,7 @@ if (Q.language_play = 1) {
     Q.language_play = 1
 }
 
+// Republican Support (Rework needed)
 if (Q.pro_republic < 0) {
     Q.pro_republic = 0;
 }
