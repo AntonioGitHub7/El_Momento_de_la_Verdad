@@ -1,6 +1,6 @@
 title: Root Scene
 on-arrival: {!
-Q.language = 0;
+Q.language_play = 0;
 !}
 new-page: true
 go-to: post_event if started = 1; start_menu if started = 0
@@ -19,13 +19,13 @@ Select a language to play:
 - @spanish: Spanish/Español
 
 @english
-on-arrival: Q.language = 0;
+on-arrival: language_play = 0;
 go-to: start_menu_2
 
 You will play in english :D
 
 @spanish
-on-arrival: Q.language = 1;
+on-arrival: language_play = 1;
 go-to: start_menu_2
 
 Tu juegas en Español :D
