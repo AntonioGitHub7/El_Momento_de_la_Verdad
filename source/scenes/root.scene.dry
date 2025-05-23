@@ -42,6 +42,7 @@ Tu juegas en Español :D
 @start
 on-arrival: {!
 Q.started = 1;
+Q.language = 0;
 // time elapsed (in months)
 Q.time = 1;
 Q.year = 1923;
