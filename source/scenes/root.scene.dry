@@ -1,7 +1,6 @@
 title: Root Scene
 on-arrival: {!
 Q.language = 0;
-// Sets language by default to english
 !}
 new-page: true
 go-to: post_event if started = 1; start_menu if started = 0
@@ -42,7 +41,6 @@ Tu juegas en Español :D
 @start
 on-arrival: {!
 Q.started = 1;
-Q.language = 0;
 // time elapsed (in months)
 Q.time = 1;
 Q.year = 1923;
