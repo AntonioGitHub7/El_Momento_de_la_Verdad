@@ -10,7 +10,7 @@ go-to: language_select
 
 @language_select
 
-Select a language to play
+Select a language to play:
 
 - @english: English/Inglés
 - @spanish: Spanish/Español
@@ -19,12 +19,17 @@ Select a language to play
 on-arrival: language = 0
 go-to: start_menu_2
 
+You will play in english
+
 @spanish
 on-arrival: language = 1
 go-to: start_menu_2
 
+Tu juegas en Español
+
 
 @start_menu_2
+new-page: true
 
 - @start: Start game
 - @election_simulation: Election simulation
