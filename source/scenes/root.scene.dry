@@ -1,4 +1,8 @@
 title: Root Scene
+on-arrival: {!
+Q.language = 0;
+// Sets language by default to english
+!}
 new-page: true
 go-to: post_event if started = 1; start_menu if started = 0
 
