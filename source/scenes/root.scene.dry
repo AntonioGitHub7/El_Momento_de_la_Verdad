@@ -1,11 +1,11 @@
 title: Root Scene
-on-arrival: {!
-Q.language_play = 0;
-!}
 new-page: true
 go-to: post_event if started = 1; start_menu if started = 0
 
 @start_menu
+on-arrival: {!
+Q.language_play = 0;
+!}
 new-page: true
 go-to: language_select
 
