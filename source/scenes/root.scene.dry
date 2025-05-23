@@ -18,19 +18,12 @@ Select a language to play:
 @english
 on-arrival: language = 0;
 
-You will play in english
-
-- @continuar
+= You will play in english
 
 @spanish
 on-arrival: language = 1;
 
-Tu juegas en Español
-
-- @continuar
-
-@continuar
-go-to: start_menu_2
+= Tu juegas en Español
 
 @start_menu_2
 new-page: true
