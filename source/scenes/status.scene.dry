@@ -20,7 +20,7 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-<span style="color: #5F9EA0;">**PL**</span> position: [? if language = 0  [? if pl_toleration : toleration ?][? if pl_in_government : in government - ?][? if pl_toleration == 0 and pl_in_government == 0 and pl_caretaker == 0 : opposition ?][? if pl_caretaker : caretaker government ?] ?][? if language = 1  [? if pl_toleration : toleración ?][? if pl_in_government : en el gobierno - ?][? if pl_toleration == 0 and pl_in_government == 0 and pl_caretaker == 0 : oposición ?][? if pl_caretaker : gobierno caído ?] ?]
+// <span style="color: #5F9EA0;">**PL**</span> position: [? if language = 0  [? if pl_toleration : toleration ?][? if pl_in_government : in government - ?][? if pl_toleration == 0 and pl_in_government == 0 and pl_caretaker == 0 : opposition ?][? if pl_caretaker : caretaker government ?] ?][? if language = 1  [? if pl_toleration : toleración ?][? if pl_in_government : en el gobierno - ?][? if pl_toleration == 0 and pl_in_government == 0 and pl_caretaker == 0 : oposición ?][? if pl_caretaker : gobierno caído ?] ?]
 [? if in_liberal_conjunction and pl_in_government: Liberal Conjunction ?][? if in_pl_majority and pl_in_government: <span style="color: #5F9EA0;">**PL**</span> majority ?][? if in_minority_government and pl_in_government: minority government ?][? if in_emergency_government and pl_in_government: emergency government ?]
 
 [? if pl_in_government and not in_pl_majority : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
