@@ -4,9 +4,27 @@ go-to: post_event if started = 1; start_menu if started = 0
 
 @start_menu
 new-page: true
+go-to: language_select
+
+= Spanish Democracy, the Last Chance
+
+@language_select
+
+Select a language to play
+
+- @english: English/Inglés
+- @spanish: Spanish/Español
+
+@english
+
+on-arrival: language = 0
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+@spanish
+
+on-arrival: language = 1
+go-to: start_menu_2
+
 
 @start_menu_2
 
