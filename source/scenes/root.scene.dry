@@ -19,13 +19,13 @@ Select a language to play:
 - @spanish: Spanish/Español
 
 @english
-on-arrival: language_play = 0;
+on-arrival: language_play == 0;
 go-to: start_menu_2
 
 You will play in english :D
 
 @spanish
-on-arrival: language_play = 1;
+on-arrival: language_play == 1;
 go-to: start_menu_2
 
 Tu juegas en Español :D
