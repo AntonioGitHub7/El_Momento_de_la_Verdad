@@ -16,12 +16,10 @@ Select a language to play
 - @spanish: Spanish/Español
 
 @english
-
 on-arrival: language = 0
 go-to: start_menu_2
 
 @spanish
-
 on-arrival: language = 1
 go-to: start_menu_2
 
