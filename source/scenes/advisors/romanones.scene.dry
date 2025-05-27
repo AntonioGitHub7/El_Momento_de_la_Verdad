@@ -17,6 +17,7 @@ new-page: true
 @caciquismo
 title: Use the Encasquillado and the Caciquismo
 subtitle: Romanones can improve our relationships with our centrist and center-right coalition partners in the government.
+view-if: sistema_electoral == 0;
 choose-if: advisor_action_timer <= 0 and (spd_prussia or in_weimar_coalition or in_grand_coalition or in_popular_front)
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?] [? if not spd_prussia : The SPD does not control the Prussian government. ?]
 on-arrival: advisor_action_timer = 6; coalition_dissent -= 1 if pl_in_government = 1 and coalition_dissent > 0; z_relation += 6; ddp_relation += 6; dvp_relation += 2; dvp_relation += 3 if in_grand_coalition
@@ -35,6 +36,6 @@ title: Snap Election
 subtitle: Call a snap election.
 unavailable-subtitle: [? if chancellor != "Romanones" and president != "Romanones" : Braun must be Chancellor or President. ?][? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?] [? if president = "Braun" and presidential_powers : We have removed this power from the president with a constitutional reform. ?]
 choose-if: advisor_action_timer == 0 and (chancellor == "Romanones" or (president == "Romanones" and not presidential_powers))
-on-arrival: advisor_action_timer = 6; next_election_time = time + 3 if next_election_time > time+3; next_election_month = month + 3 if next_election_time >= time+3; next_election_year = year if next_election_time >= time+3; next_election_year += 1 if next_election_month > 12; next_election_month -= 12 if next_election_month > 12; 
+on-arrival: advisor_action_timer = 6; workers_pl += 4*(1-dissent);
 
 We have called for new elections, set for [+ next_election_month : month +] [+ next_election_year +].
