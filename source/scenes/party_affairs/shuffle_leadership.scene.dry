@@ -286,10 +286,16 @@ go-to: advisor_menu
 
 @advisor_menu
 title: Add other advisors.
-tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor
+tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_advisor, nonfactional_advisor, romanonist_advisor, democrat_advisor, agrarianist_advisor, zamorist_advisor
 frequency: 1
 
-
+- @romanonist: Add Romanonists
+// - @left: Add Leftists
+- @democrat: Add Democrats
+- @agrarianist: Add Agrarianists
+- @zamorist: Add Zamorists
+// - @nonfactional: Add non-factional advisors
+// Vanilla
 - @centrist: Add Centrists
 - @left: Add Leftists
 - @reformist: Add Reformists
@@ -328,6 +334,26 @@ view-if: neorevisionism > 0 and n_advisors < 3
 view-if: n_advisors < 3
 
 - #nonfactional_advisor
+
+@romanonist
+view-if: n_advisors < 3
+
+- #romanonist_advisor
+
+@democrat
+view-if: n_advisors < 3
+
+- #democrat_advisor
+
+@agrarianist
+view-if: n_advisors < 3
+
+- #agrarianist_advisor
+
+@zamorist
+view-if: n_advisors < 3
+
+- #zamorist_advisor
 
 @add_hilferding
 title: Rudolf Hilferding
@@ -639,3 +665,31 @@ tags: nonfactional_advisor
 Friedrich Stampfer is now an advisor.
 
 
+# romanonist
+
+@add_romanones
+title: Álvaro de Figueroa y Torres
+subtitle: Álvaro de Figueroa y Torres is a very important Liberal leader. {!<br><br>!}[? if difficulty < 0 : Actions - Use the Encasquillado and the Caciquismo, Negociate with the king and Snap Election ?]
+is-card: true
+card-image: img/portraits/StampferFriedrich.jpg
+view-if: romanones_advisor = 0 and n_advisors < 3
+on-arrival: romanones_advisor = 1; n_advisors += 1
+go-to: advisor_menu
+tags: romanonist_advisor
+
+Álvaro de Figueroa y Torres is now an advisor.
+
+
+# democrat
+
+@add_garcia_prieto
+title: Manuel García Prieto
+subtitle: Manuel García Prieto is the leader of the Liberal Democrats faction and actual leader of the liberal party. {!<br><br>!}[? if difficulty < 0 : Actions - Negotiating with the Coalition, Negociate with the king and Snap Election ?]
+is-card: true
+card-image: img/portraits/StampferFriedrich.jpg
+view-if: garcia_prieto_advisor = 0 and n_advisors < 3
+on-arrival: garcia_prieto_advisor = 1; n_advisors += 1
+go-to: advisor_menu
+tags: democrat_advisor
+
+Manuel García Prieto is now an advisor.
