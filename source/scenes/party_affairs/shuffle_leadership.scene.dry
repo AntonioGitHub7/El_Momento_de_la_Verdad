@@ -290,11 +290,11 @@ tags: center_advisor, left_advisor, reformist_advisor, labor_advisor, neorev_adv
 frequency: 1
 
 - @romanonist: Add Romanonists
-// - @left: Add Leftists
+// left: Add Leftists
 - @democrat: Add Democrats
 - @agrarianist: Add Agrarianists
 - @zamorist: Add Zamorists
-// - @nonfactional: Add non-factional advisors
+// nonfactional: Add non-factional advisors
 // Vanilla
 - @centrist: Add Centrists
 - @left: Add Leftists
