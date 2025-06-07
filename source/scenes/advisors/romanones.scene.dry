@@ -1,8 +1,8 @@
 title: Álvaro de Figueroa y Torres
 is-pinned-card: true
-tags: advisor, democrat
+tags: advisor, romanonist
 card-image: img/portraits/BraunOtto.jpg
-view-if: garcia_prieto_advisor = 1
+view-if: romanones_advisor = 1
 new-page: true 
 
 = Álvaro de Figueroa y Torres
