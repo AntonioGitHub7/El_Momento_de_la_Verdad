@@ -72,19 +72,19 @@ Q.factions = ['left', 'romanonist', 'agrarianist', 'democrat', 'zamorist'];
 // should this be normalized to 100%?
 Q.left_strength = 15;
 Q.left_dissent = 15;
-Q.left_leader = 'Santiago Alba Bonifaz';
+Q.left_leader = "Santiago Alba Bonifaz";
 Q.romanonist_strength = 25;
 Q.romanonist_dissent = 25;
-Q.romanonist_leader = 'Álvaro de Figueroa y Torres';
+Q.romanonist_leader = "Álvaro de Figueroa y Torres";
 Q.agrarianist_strength = 10;
 Q.agrarianist_dissent = 10;
-Q.agrarianist_leader = 'Rafael Gasset Chinchilla';
+Q.agrarianist_leader = "Rafael Gasset Chinchilla";
 Q.democrat_strength = 35;
 Q.democrat_dissent = 5;
-Q.democrat_leader = 'Manuel García Prieto';
+Q.democrat_leader = "Manuel García Prieto";
 Q.zamorist_strength = 15;
 Q.zamorist_dissent = 10;
-Q.zamorist_leader = 'Niceto Alcalá Zamora';
+Q.zamorist_leader = "Niceto Alcalá Zamora";
 
 // secret events...
 Q.unions_independent = 0;
@@ -227,7 +227,7 @@ Q.new_middle = 14; // "new mittelstand"
 Q.rural = 25; // agriculture and forestry employment... but many of those are proletarians so...
 // source: https://surface.syr.edu/cgi/viewcontent.cgi?filename=3&article=1016&context=books&type=additional page 43, table 3.3
 Q.unemployed = 8.6;
-Q.catholics = 30;
+Q.women = 30;
 
 // unemployment: 1929 - 13.3, 1930 - 22.7, 1931 - 34.3, 1932 - 43.8 (same source as above)
 
@@ -259,7 +259,6 @@ Q.new_middle_qol = 100;
 // TODO: add 'sapd' later on
 // Q.sapd_formed = 0;
 
-// To add later
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'women'];
 Q.parties = ['pc', 'pl', 'pr', 'psoe', 'pce', 'lr', 'prr', 'other'];
 
@@ -277,7 +276,7 @@ Q.workers_other = 10;
 Q.old_middle_pl = 5;
 Q.old_middle_pc = 0;
 Q.old_middle_pr = 5;
-Q.old_middle_psoe= 10;
+Q.old_middle_psoe = 10;
 Q.old_middle_pce = 25;
 Q.old_middle_lr = 25;
 Q.old_middle_prr = 10;
@@ -286,7 +285,7 @@ Q.old_middle_other = 10;
 Q.new_middle_pl = 5;
 Q.new_middle_pc = 1;
 Q.new_middle_pr = 10;
-Q.new_middle_psoe= 25;
+Q.new_middle_psoe = 25;
 Q.new_middle_pce = 25;
 Q.new_middle_lr = 10;
 Q.new_middle_prr = 5;
@@ -295,7 +294,7 @@ Q.new_middle_other = 15;
 Q.rural_pl = 10;
 Q.rural_pc = 0;
 Q.rural_pr = 5;
-Q.rural_psoe= 5;
+Q.rural_psoe = 5;
 Q.rural_pce = 15;
 Q.rural_lr = 45;
 Q.rural_prr = 5;
