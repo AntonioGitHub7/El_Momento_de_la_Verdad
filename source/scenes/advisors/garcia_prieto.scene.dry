@@ -16,7 +16,7 @@ new-page: true
 
 @coalition
 title: [? if language_play = 0 : Improve relations with the coalition ?][? if language_play = 1 : Mejorar relaciones con la coalición ?]
-subtitle: [? if language_play = 0 : García Prieto can improve our relationships with our coalition partners in the government. ? ][? if language_play = 1 : García Prieto puede mejorar las relaciones con nuestros compañeros de gobierno. ? ]
+subtitle: [? if language_play = 0 : García Prieto can improve our relationships with our coalition partners in the government. ?][? if language_play = 1 : García Prieto puede mejorar las relaciones con nuestros compañeros de gobierno. ?]
 choose-if: advisor_action_timer <= 0 and (spd_prussia or in_weimar_coalition or in_grand_coalition or in_popular_front)
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +][? if language_play = 0 : months before next advisor action. ?][? if language_play = 1 : meses antes de la próxima acción de un consejero. ?] ?]
 on-arrival: advisor_action_timer = 6; coalition_dissent -= 1 if pl_in_government = 1 and coalition_dissent > 0; z_relation += 6; ddp_relation += 6; dvp_relation += 2; dvp_relation += 3 if in_grand_coalition
