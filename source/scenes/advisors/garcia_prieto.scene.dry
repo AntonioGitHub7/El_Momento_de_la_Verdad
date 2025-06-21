@@ -25,7 +25,7 @@ We have improved our relations with the [? if in_grand_coalition : Center (Zentr
 
 @king
 title: Negotiating with the King
-subtitle: García Prieto can improve our relationships with the king [ + king + ]
+subtitle: García Prieto can improve our relationships with the king [+ king +]
 choose-if: advisor_action_timer <= 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 on-arrival: advisor_action_timer = 6; last_advisor_action = 1; king_relation += 5
