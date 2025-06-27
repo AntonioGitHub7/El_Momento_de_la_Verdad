@@ -1,6 +1,6 @@
 title: El futuro de <span style="color: #C138CF;">**Osoland**</span> 
 subtitle: <span style="color: #C138CF;">**Osoland**</span> se encuentra en su hora más oscura...
-view-if: year = 1928 and month = 7
+view-if: year = 1923 and month = 7
 max-visits: 1
 tags: event
 new-page: true
