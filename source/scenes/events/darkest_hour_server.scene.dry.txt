@@ -1,13 +1,12 @@
 title: El futuro de <span style="color: #C138CF;">**Osoland**</span> 
 subtitle: <span style="color: #C138CF;">**Osoland**</span> se encuentra en su hora más oscura...
-view-if: month = 6 and year = 1923
+view-if: month = 7 and year = 1923
 max-visits: 1
-priority: 1
+priority: 2
 tags: event
 new-page: true
 
 = El futuro de <span style="color: #C138CF;">**Osoland**</span> 
-
 
 Debido a la precaria situación del servidor y el descontento de gran parte de la <span style="color: #D3CDD4;">Administración</span> con la facción de <span style="color: #A16D6D;">Twóyán</span>
 
